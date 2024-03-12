@@ -20,7 +20,7 @@ def week():
 def login():
     form = LoginForm()
     return render_template('index.html',
-                           title='Расписание 513',
+                           title='Расписание_513',
                            form=form, image1='static/img/Композиция-1.gif')
 
 
